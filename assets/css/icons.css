@@ -1,0 +1,19 @@
+.fa-linkedin-in, .fa-patreon,.fa-google {
+    color: #9C9C9C;
+    transition: all .3s;
+}
+
+.fa-linkedin-in:hover{
+    color: #FFFFFF;
+    transition: all .3s;
+}
+
+.fa-patreon:hover{
+    color: #FFFFFF;
+    transition: all .3s;
+}
+
+.fa-google:hover{
+    color: #FFFFFF;
+    transition: all .3s;
+}
