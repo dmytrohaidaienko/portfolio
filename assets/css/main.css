@@ -12,23 +12,25 @@ body{
     background-color: #080808;
 }
 
+/* Header Navigation Menu */
+
 header{
     width: 100vw;
     background-color: transparent;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
 }
 
 .container{
     width: 1110px;
     margin: 0 auto;
+    padding: 24px 95px 28px 95px;
 }
 
 .header-container{
     display: flex;
     justify-content: space-between;
     background-color: #1B1B1B;
-    padding: 24px 95px 28px 95px;
     border-radius: 0 0 5px 5px;
 }
 
@@ -70,4 +72,73 @@ header{
 
 .header-social + .header-social{
     padding-left: 25px;
+}
+
+/* Greeting Section */
+
+.greeting-section{
+    margin-top: 80px;
+}
+
+.greeting-container{
+    display: flex;
+}
+
+.greeting-section-column{
+
+}
+
+.greeting-section-column + .greeting-section-column{
+    margin-left: 32px;
+}
+
+.greeting-section-column h1{
+    width: 492px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 52px;
+}
+
+.greeting-section-column h3{
+    width: 492px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.greeting-section-column p{
+    width: 492px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9C9C9C;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.greeting-section-column a{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px 79px 21px 64px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #A4E9F9,#C5AEF2,#8578EA);
+    background-size: 300%;
+    background-position: left;
+    transition: .3s background-position ease-in-out;
+}
+
+.greeting-section-column a:hover{
+    background-position: right;
+}
+
+.greeting-section-image{
+    height: 395px;
+    width: 395px;
 }
