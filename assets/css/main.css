@@ -142,3 +142,80 @@ header{
     height: 395px;
     width: 395px;
 }
+
+/* Tools Section */
+
+.tools-section{
+    margin-top: 58px;
+}
+
+.tools-container{
+    background-color: transparent;
+}
+
+.tools-category{
+    margin-bottom: 20px;
+}
+
+.tools-category h4{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.tools-cards{
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool-card{
+    flex: 1 1 160px;
+    margin: 10px;
+    border: 1px solid #1B1B1B;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.tool-card span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #525252;
+}
+
+/* Technologies Section */
+
+.tehnologies-section{
+    background-color: #F5F5F5;
+    padding-top: 80px;
+}
+
+.tehnologies-container{
+    background-color: transparent;
+}
+
+.category-caption{
+    text-align: center;
+}
+
+.category-caption h2{
+    margin-bottom: 10px;
+    font-family:'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    color: #080808;
+    line-height: 40px;
+}
+
+.category-caption p{
+    width: 570px;
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9C9C9C;
+    line-height: 24px;
+}
