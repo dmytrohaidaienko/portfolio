@@ -10,6 +10,7 @@
 
 body{
     background-color: #080808;
+    height: 4000px;
 }
 
 /* Header Navigation Menu */
@@ -186,22 +187,23 @@ header{
     color: #525252;
 }
 
-/* Technologies Section */
+/* Skills Section */
 
-.tehnologies-section{
+.skills-section{
     background-color: #F5F5F5;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.tehnologies-container{
+.skills-container{
     background-color: transparent;
 }
 
-.category-caption{
+.skills-caption{
     text-align: center;
 }
 
-.category-caption h2{
+.skills-caption h2{
     margin-bottom: 10px;
     font-family:'Raleway', sans-serif;
     font-size: 34px;
@@ -210,7 +212,7 @@ header{
     line-height: 40px;
 }
 
-.category-caption p{
+.skills-caption p{
     width: 570px;
     margin: 0 auto;
     font-family: 'IBM Plex Mono', monospace;
@@ -218,4 +220,60 @@ header{
     font-weight: 400;
     color: #9C9C9C;
     line-height: 24px;
+}
+
+.skills{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+
+.skills-category{
+    flex: 1 1 325px;
+}
+
+.skills-category h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 700;
+    color: #080808;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.skill{
+    margin: 20px 0;
+}
+
+.skill-title{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    font-weight: 600;
+    color: #525252;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+.skill-bar{
+    height: 14px;
+    background: #1B1B1B;
+    border-radius: 4px;
+}
+
+.skill-percentage{
+    height: 14px;
+    background: linear-gradient(to right, #A4E9F9,#C5AEF2,#8578EA);
+    border-radius: 3px;
+    animation: fillSkillBars 2.5s 1;
+}
+
+@keyframes fillSkillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
 }
